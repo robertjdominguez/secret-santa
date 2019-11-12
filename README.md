@@ -16,7 +16,7 @@ You'll need the Python Twilio library installed. Run
 ```bash
 pip install twilio
 ```
-Then, in `config.py`, update your list of secret santas and their phone numbers. Finally, modify the congif variables for the Twilio account in `main.py` -- all this information can be found on your Twilio dashboard.
+Then, in `config.py`, update your list of secret santas and their phone numbers. Finally, modify the config variables for the Twilio account in `main.py` -- all this information can be found on your Twilio dashboard.
 ```python
 accountSID = 'your_acc_id'
 authToken = 'your_auth_token'
